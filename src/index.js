@@ -74,7 +74,7 @@ function murkupCountryInfo(country) {
             </li>
             <li class = 'country-info__item'><span class 'country-info__item--catrgorys' > Capital: </span>${capital}</li>
             <li class = 'country-info__item'><span class 'country-info__item--catrgorys' > Population: </span>${population}</li>
-            <li class = 'country-info__item'><span class 'country-info__item--catrgorys' > Languages: </span>${country.languages.map(language => { return language.name }).join(', ')}</li>
+            <li class = 'country-info__item'><span class 'country-info__item--catrgorys' > Languages: </span>${languages.map(language => { return language.name }).join(', ')}</li>
         </ul>  
         `;
     })
